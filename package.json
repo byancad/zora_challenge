@@ -1,0 +1,36 @@
+{
+  "name": "ethportland_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@types/random-gradient": "^0.0.0",
+    "axios": "^0.26.1",
+    "ethers": "^5.6.2",
+    "framer-motion": "^6",
+    "iron-session": "^6.1.2",
+    "next": "12.1.4",
+    "next-graphql-loader": "^1.0.1",
+    "random-gradient": "^0.0.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "siwe": "^1.1.6",
+    "wagmi": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "typescript": "4.6.3"
+  }
+}
